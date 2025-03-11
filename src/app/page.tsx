@@ -8,7 +8,10 @@ export default function Home() {
         <div className="bg-[#1C1C1C] rounded-2xl p-4 mb-6">
           <nav className="flex justify-between items-center">
             <div className="flex gap-6">
-              <button className="p-2 hover:bg-[#2C2C2C] rounded-lg transition-colors">
+              <button
+                className="p-2 bg-[#2C2C2C] text-emerald-500 rounded-lg transition-colors"
+                aria-current="page"
+              >
                 <svg
                   className="w-6 h-6"
                   fill="none"
@@ -163,7 +166,7 @@ export default function Home() {
                 {
                   name: "FiTool",
                   description: "Nutrition and Session website",
-                  icon: "⬜",
+                  logo: "/assets/images/LogoFT.png",
                   color: "bg-white",
                 },
                 {
@@ -171,7 +174,7 @@ export default function Home() {
                   description: "Nutrition and Session Mobile App",
                   icon: "M",
                   color: "bg-white",
-                }
+                },
               ].map((project) => (
                 <button
                   key={project.name}
@@ -179,9 +182,21 @@ export default function Home() {
                 >
                   <div className="flex items-center gap-4">
                     <div
-                      className={`w-12 h-12 ${project.color} rounded-full flex items-center justify-center text-xl`}
+                      className={`w-12 h-12 ${project.color} rounded-full flex items-center justify-center text-xl overflow-hidden p-2 shadow-lg border-5 border-[#1C1C1C] ring-2 ring-black/5`}
                     >
-                      {project.icon}
+                      {project.logo ? (
+                        <div className="relative w-full h-full flex items-center justify-center">
+                          <Image
+                            src={project.logo}
+                            alt={`${project.name} logo`}
+                            width={28}
+                            height={28}
+                            className="object-contain drop-shadow-md"
+                          />
+                        </div>
+                      ) : (
+                        project.icon
+                      )}
                     </div>
                     <div className="text-left">
                       <h3 className="font-medium">{project.name}</h3>
