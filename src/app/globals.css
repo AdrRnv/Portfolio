@@ -1,5 +1,114 @@
 @import "tailwindcss";
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "HurmeGeometric";
+  src: url("../assets/fonts/HurmeGeometricSans2-Hairline.ttf")
+    format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HurmeGeometric";
+  src: url("../assets/fonts/HurmeGeometricSans2-HairlineObl.ttf")
+    format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "HurmeGeometric";
+  src: url("../assets/fonts/HurmeGeometricSans2-Thin.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HurmeGeometric";
+  src: url("../assets/fonts/HurmeGeometricSans2-ThinObl.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "HurmeGeometric";
+  src: url("../assets/fonts/HurmeGeometricSans2-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HurmeGeometric";
+  src: url("../assets/fonts/HurmeGeometricSans2-LightObl.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "HurmeGeometric";
+  src: url("../assets/fonts/HurmeGeometricSans2-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HurmeGeometric";
+  src: url("../assets/fonts/HurmeGeometricSans2-RegularObl.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "HurmeGeometric";
+  src: url("../assets/fonts/HurmeGeometricSans2-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HurmeGeometric";
+  src: url("../assets/fonts/HurmeGeometricSans2-SemiBoldObl.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "HurmeGeometric";
+  src: url("../assets/fonts/HurmeGeometricSans2-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HurmeGeometric";
+  src: url("../assets/fonts/HurmeGeometricSans2-BoldObl.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "HurmeGeometric";
+  src: url("../assets/fonts/HurmeGeometricSans2-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HurmeGeometric";
+  src: url("../assets/fonts/HurmeGeometricSans2-BlackObl.ttf")
+    format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -12,15 +121,8 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-start-rgb));
+  font-family: "HurmeGeometric", system-ui, sans-serif;
 }
