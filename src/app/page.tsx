@@ -313,7 +313,7 @@ export default function Home() {
         <div
           className={`${
             theme === "dark" ? "bg-[#1C1C1C]" : "bg-white"
-          } rounded-2xl p-4 shadow-lg mt-6`}
+          } rounded-2xl p-8 shadow-lg mt-6`}
         >
           <div
             className={`${
@@ -354,19 +354,19 @@ export default function Home() {
                 {
                   name: "EffetB",
                   description: "Apprentice Full-Stack Developer",
-                  logo: "/assets/images/LogoFT.png",
+                  logo: "/assets/images/LogoEffetB.png",
                   color: "bg-white",
                 },
                 {
                   name: "EffetB",
                   description: "Full-Stack Developer",
-                  logo: "/assets/images/LogoFT.png",
+                  logo: "/assets/images/LogoEffetB.png",
                   color: "bg-white",
                 },
                 {
                   name: "EffetB",
                   description: "Intern Full-Stack Developer",
-                  logo: "/assets/images/LogoFT.png",
+                  logo: "/assets/images/LogoEffetB.png",
                   color: "bg-white",
                 },
               ].map((project) => (
