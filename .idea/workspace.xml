@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62e80230-ecd7-46c5-8cf5-0bfb6d7c3a36" name="Changes" comment="feat(POT-0): Logo FiTool and active" />
+    <list default="true" id="62e80230-ecd7-46c5-8cf5-0bfb6d7c3a36" name="Changes" comment="feat(POT-0): LightMode">
+      <change afterPath="$PROJECT_DIR$/public/assets/images/LogoEffetB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/LogoEffetB.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/adrian.rabian/Documents/Develop/Portfolio/src/assets/images",
+    "last_opened_file_path": "/Users/adrian.rabian/Documents/Develop/Portfolio/public/assets/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,6 +56,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets/images" />
       <recent name="$PROJECT_DIR$/src/assets/images" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
@@ -75,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1739390774814</updated>
       <workItem from="1741699646043" duration="5757000" />
-      <workItem from="1741706597874" duration="5076000" />
+      <workItem from="1741706597874" duration="11977000" />
     </task>
     <task id="LOCAL-00001" summary="feat(POT-0): Init project">
       <option name="closed" value="true" />
@@ -93,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741714937665</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat(POT-0): LightMode">
+      <option name="closed" value="true" />
+      <created>1741715124678</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741715124678</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +117,7 @@
     <MESSAGE value="feat(POR" />
     <MESSAGE value="feat(POT-0): Init project" />
     <MESSAGE value="feat(POT-0): Logo FiTool and active" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(POT-0): Logo FiTool and active" />
+    <MESSAGE value="feat(POT-0): LightMode" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(POT-0): LightMode" />
   </component>
 </project>
