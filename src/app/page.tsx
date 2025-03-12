@@ -323,7 +323,7 @@ export default function Home() {
             <div className="flex items-center justify-between mb-6">
               <div className="flex items-center gap-2">
                 <span className="w-2 h-2 bg-gray-500 rounded-full"></span>
-                <span className="text-lg">Carrer</span>
+                <span className="text-lg">Career</span>
               </div>
               <button
                 className={`${
