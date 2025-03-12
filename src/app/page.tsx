@@ -8,27 +8,27 @@ export default function Home() {
 
   return (
     <main
-      className={`min-h-screen p-8 ${
+      className={`min-h-screen p-5 ${
         theme === "dark" ? "bg-black text-white" : "bg-gray-100 text-black"
       }`}
     >
-      <div className="max-w-[750px] mx-auto">
+      <div className="max-w-[500px] mx-auto">
         {/* Navigation Card */}
         <div
           className={`${
             theme === "dark" ? "bg-[#1C1C1C]" : "bg-white"
-          } rounded-2xl p-4 mb-6 shadow-lg`}
+          } rounded-xl p-3 mb-4 shadow-lg`}
         >
           <nav className="flex justify-between items-center">
-            <div className="flex gap-6">
+            <div className="flex gap-3">
               <button
-                className={`p-2 ${
+                className={`p-1.5 ${
                   theme === "dark" ? "bg-[#2C2C2C]" : "bg-gray-100"
                 } text-emerald-500 rounded-lg transition-colors`}
                 aria-current="page"
               >
                 <svg
-                  className="w-6 h-6"
+                  className="w-4 h-4"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -42,12 +42,12 @@ export default function Home() {
                 </svg>
               </button>
               <button
-                className={`p-2 hover:${
+                className={`p-1.5 hover:${
                   theme === "dark" ? "bg-[#2C2C2C]" : "bg-gray-100"
                 } rounded-lg transition-colors`}
               >
                 <svg
-                  className="w-6 h-6"
+                  className="w-4 h-4"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -61,12 +61,12 @@ export default function Home() {
                 </svg>
               </button>
               <button
-                className={`p-2 hover:${
+                className={`p-1.5 hover:${
                   theme === "dark" ? "bg-[#2C2C2C]" : "bg-gray-100"
                 } rounded-lg transition-colors`}
               >
                 <svg
-                  className="w-6 h-6"
+                  className="w-4 h-4"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -80,16 +80,16 @@ export default function Home() {
                 </svg>
               </button>
             </div>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-2">
               <button
                 onClick={toggleTheme}
-                className={`p-2 hover:${
+                className={`p-1.5 ${
                   theme === "dark" ? "bg-[#2C2C2C]" : "bg-gray-100"
                 } rounded-lg transition-colors`}
               >
                 {theme === "dark" ? (
                   <svg
-                    className="w-6 h-6"
+                    className="w-4 h-4"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -103,7 +103,7 @@ export default function Home() {
                   </svg>
                 ) : (
                   <svg
-                    className="w-6 h-6"
+                    className="w-4 h-4"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -122,7 +122,7 @@ export default function Home() {
                   theme === "dark"
                     ? "bg-[#2C2C2C] hover:bg-[#363636]"
                     : "bg-gray-100 hover:bg-gray-200"
-                } px-4 py-2 rounded-lg font-medium transition-colors`}
+                } px-3 py-1.5 rounded-lg font-medium transition-colors text-xs`}
               >
                 Hire Me
               </button>
@@ -134,26 +134,26 @@ export default function Home() {
         <div
           className={`${
             theme === "dark" ? "bg-[#1C1C1C]" : "bg-white"
-          } rounded-2xl p-8 shadow-lg`}
+          } rounded-xl p-5 shadow-lg`}
         >
-          <div className="flex flex-col lg:flex-row justify-between items-center mb-16 gap-8">
+          <div className="flex flex-col lg:flex-row justify-between items-center mb-6 gap-4">
             <div>
-              <div className="flex items-center gap-2 mb-2">
-                <span className="w-2 h-2 bg-gray-500 rounded-full"></span>
+              <div className="flex items-center gap-1.5 mb-1.5">
+                <span className="w-1.5 h-1.5 bg-gray-500 rounded-full"></span>
                 <span
-                  className={`text-lg ${
+                  className={`text-base ${
                     theme === "dark" ? "text-gray-300" : "text-gray-600"
                   }`}
                 >
                   Full-Stack Developer
                 </span>
-                <span className="ml-4 text-sm text-emerald-500 bg-emerald-500/20 px-3 py-1 rounded-full">
+                <span className="ml-3 text-xs text-emerald-500 bg-emerald-500/20 px-2 py-0.5 rounded-full">
                   AVAILABLE FOR WORK
                 </span>
               </div>
-              <h1 className="text-5xl font-bold mb-4">I&apos;m Adrian Rv</h1>
+              <h1 className="text-4xl font-bold mb-3">I&apos;m Adrian Rv</h1>
               <p
-                className={`text-xl ${
+                className={`text-md ${
                   theme === "dark" ? "text-gray-400" : "text-gray-600"
                 }`}
               >
@@ -161,13 +161,13 @@ export default function Home() {
                 <br />
                 Currently working at None.
               </p>
-              <div className="flex gap-4 mt-6">
+              <div className="flex gap-3 mt-4">
                 <button
                   className={`${
                     theme === "dark"
                       ? "bg-[#2C2C2C] hover:bg-[#363636]"
                       : "bg-gray-100 hover:bg-gray-200"
-                  } px-6 py-3 rounded-lg font-medium transition-colors`}
+                  } px-4 py-2 rounded-lg font-medium transition-colors`}
                 >
                   Hire Me
                 </button>
@@ -176,7 +176,7 @@ export default function Home() {
                     theme === "dark"
                       ? "border-[#2C2C2C] hover:bg-[#2C2C2C]"
                       : "border-gray-200 hover:bg-gray-100"
-                  } px-6 py-3 rounded-lg font-medium transition-colors`}
+                  } px-4 py-2 rounded-lg font-medium transition-colors`}
                 >
                   Copy Email
                 </button>
@@ -184,15 +184,15 @@ export default function Home() {
             </div>
             <div className="relative">
               <div
-                className={`w-32 h-32 rounded-full overflow-hidden ${
+                className={`w-24 h-24 rounded-full overflow-hidden ${
                   theme === "dark" ? "bg-[#2C2C2C]" : "bg-gray-100"
                 }`}
               >
                 <Image
                   src="/avatar.png"
                   alt="Adrian Rv"
-                  width={128}
-                  height={128}
+                  width={96}
+                  height={96}
                   className="object-cover"
                 />
               </div>
@@ -203,23 +203,23 @@ export default function Home() {
           <div
             className={`${
               theme === "dark" ? "bg-[#1C1C1C]" : "bg-white"
-            } rounded-2xl`}
+            } rounded-xl`}
           >
-            <div className="flex items-center justify-between mb-6">
-              <div className="flex items-center gap-2">
-                <span className="w-2 h-2 bg-gray-500 rounded-full"></span>
-                <span className="text-lg">Projects</span>
+            <div className="flex items-center justify-between mb-4">
+              <div className="flex items-center gap-1.5">
+                <span className="w-1.5 h-1.5 bg-gray-500 rounded-full"></span>
+                <span className="text-base">Projects</span>
               </div>
               <button
                 className={`${
                   theme === "dark"
                     ? "text-gray-400 hover:text-white"
                     : "text-gray-500 hover:text-black"
-                } flex items-center gap-2 transition-colors`}
+                } flex items-center gap-1.5 transition-colors text-sm`}
               >
                 View All
                 <svg
-                  className="w-4 h-4"
+                  className="w-3 h-3"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -234,7 +234,7 @@ export default function Home() {
               </button>
             </div>
 
-            <div className="space-y-4">
+            <div className="space-y-3">
               {[
                 {
                   name: "FiTool",
@@ -255,41 +255,41 @@ export default function Home() {
                     theme === "dark"
                       ? "bg-[#2C2C2C] hover:bg-[#363636]"
                       : "bg-gray-100 hover:bg-gray-200"
-                  } rounded-xl p-4 flex items-center justify-between group transition-colors`}
+                  } rounded-lg p-3 flex items-center justify-between group transition-colors`}
                 >
-                  <div className="flex items-center gap-4">
+                  <div className="flex items-center gap-3">
                     <div
-                      className={`w-12 h-12 ${
+                      className={`w-8 h-8 ${
                         project.color
-                      } rounded-full flex items-center justify-center text-xl overflow-hidden p-2 shadow-lg ${
+                      } rounded-full flex items-center justify-center text-base overflow-hidden p-1.5 shadow-lg ${
                         theme === "dark"
                           ? "border-[#1C1C1C]"
                           : "border-gray-200"
-                      } ring-2 ring-black/5`}
+                      } ring-1 ring-black/5`}
                     >
                       <div className="relative w-full h-full flex items-center justify-center">
                         <Image
                           src={project.logo}
                           alt={`${project.name} logo`}
-                          width={28}
-                          height={28}
+                          width={20}
+                          height={20}
                           className="object-contain drop-shadow-md"
                         />
                       </div>
                     </div>
                     <div className="text-left">
-                      <h3 className="font-medium">{project.name}</h3>
+                      <h3 className="font-medium text-sm">{project.name}</h3>
                       <p
-                        className={
+                        className={`text-xs ${
                           theme === "dark" ? "text-gray-400" : "text-gray-500"
-                        }
+                        }`}
                       >
                         {project.description}
                       </p>
                     </div>
                   </div>
                   <svg
-                    className={`w-6 h-6 ${
+                    className={`w-4 h-4 ${
                       theme === "dark"
                         ? "text-gray-500 group-hover:text-white"
                         : "text-gray-400 group-hover:text-black"
@@ -310,31 +310,106 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* Career Section */}
         <div
           className={`${
             theme === "dark" ? "bg-[#1C1C1C]" : "bg-white"
-          } rounded-2xl p-8 shadow-lg mt-6`}
+          } rounded-xl p-5 shadow-lg mt-4`}
         >
-          <div
-            className={`${
-              theme === "dark" ? "bg-[#1C1C1C]" : "bg-white"
-            } rounded-2xl`}
-          >
-            <div className="flex items-center justify-between mb-6">
-              <div className="flex items-center gap-2">
-                <span className="w-2 h-2 bg-gray-500 rounded-full"></span>
-                <span className="text-lg">Career</span>
-              </div>
-              <button
-                className={`${
-                  theme === "dark"
-                    ? "text-gray-400 hover:text-white"
-                    : "text-gray-500 hover:text-black"
-                } flex items-center gap-2 transition-colors`}
+          <div className="flex items-center justify-between mb-4">
+            <div className="flex items-center gap-1.5">
+              <span className="w-1.5 h-1.5 bg-gray-500 rounded-full"></span>
+              <span className="text-base">Career</span>
+            </div>
+            <button
+              className={`${
+                theme === "dark"
+                  ? "text-gray-400 hover:text-white"
+                  : "text-gray-500 hover:text-black"
+              } flex items-center gap-1.5 transition-colors text-sm`}
+            >
+              View All
+              <svg
+                className="w-3 h-3"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
               >
-                View All
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div className="space-y-3">
+            {[
+              {
+                name: "EffetB",
+                description: "Apprentice Full-Stack Developer",
+                logo: "/assets/images/LogoEffetB.png",
+                color: "bg-white",
+              },
+              {
+                name: "EffetB",
+                description: "Full-Stack Developer",
+                logo: "/assets/images/LogoEffetB.png",
+                color: "bg-white",
+              },
+              {
+                name: "EffetB",
+                description: "Intern Full-Stack Developer",
+                logo: "/assets/images/LogoEffetB.png",
+                color: "bg-white",
+              },
+            ].map((project) => (
+              <button
+                key={`${project.name}-${project.description}`}
+                className={`w-full ${
+                  theme === "dark"
+                    ? "bg-[#2C2C2C] hover:bg-[#363636]"
+                    : "bg-gray-100 hover:bg-gray-200"
+                } rounded-lg p-3 flex items-center justify-between group transition-colors`}
+              >
+                <div className="flex items-center gap-3">
+                  <div
+                    className={`w-8 h-8 ${
+                      project.color
+                    } rounded-full flex items-center justify-center text-base overflow-hidden p-1.5 shadow-lg ${
+                      theme === "dark" ? "border-[#1C1C1C]" : "border-gray-200"
+                    } ring-1 ring-black/5`}
+                  >
+                    <div className="relative w-full h-full flex items-center justify-center">
+                      <Image
+                        src={project.logo}
+                        alt={`${project.name} logo`}
+                        width={20}
+                        height={20}
+                        className="object-contain drop-shadow-md"
+                      />
+                    </div>
+                  </div>
+                  <div className="text-left">
+                    <h3 className="font-medium text-sm">{project.name}</h3>
+                    <p
+                      className={`text-xs ${
+                        theme === "dark" ? "text-gray-400" : "text-gray-500"
+                      }`}
+                    >
+                      {project.description}
+                    </p>
+                  </div>
+                </div>
                 <svg
-                  className="w-4 h-4"
+                  className={`w-4 h-4 ${
+                    theme === "dark"
+                      ? "text-gray-500 group-hover:text-white"
+                      : "text-gray-400 group-hover:text-black"
+                  } transition-colors`}
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -347,88 +422,7 @@ export default function Home() {
                   />
                 </svg>
               </button>
-            </div>
-
-            <div className="space-y-4">
-              {[
-                {
-                  name: "EffetB",
-                  description: "Apprentice Full-Stack Developer",
-                  logo: "/assets/images/LogoEffetB.png",
-                  color: "bg-white",
-                },
-                {
-                  name: "EffetB",
-                  description: "Full-Stack Developer",
-                  logo: "/assets/images/LogoEffetB.png",
-                  color: "bg-white",
-                },
-                {
-                  name: "EffetB",
-                  description: "Intern Full-Stack Developer",
-                  logo: "/assets/images/LogoEffetB.png",
-                  color: "bg-white",
-                },
-              ].map((project) => (
-                <button
-                  key={`${project.name}-${project.description}`}
-                  className={`w-full ${
-                    theme === "dark"
-                      ? "bg-[#2C2C2C] hover:bg-[#363636]"
-                      : "bg-gray-100 hover:bg-gray-200"
-                  } rounded-xl p-4 flex items-center justify-between group transition-colors`}
-                >
-                  <div className="flex items-center gap-4">
-                    <div
-                      className={`w-12 h-12 ${
-                        project.color
-                      } rounded-full flex items-center justify-center text-xl overflow-hidden p-2 shadow-lg ${
-                        theme === "dark"
-                          ? "border-[#1C1C1C]"
-                          : "border-gray-200"
-                      } ring-2 ring-black/5`}
-                    >
-                      <div className="relative w-full h-full flex items-center justify-center">
-                        <Image
-                          src={project.logo}
-                          alt={`${project.name} logo`}
-                          width={28}
-                          height={28}
-                          className="object-contain drop-shadow-md"
-                        />
-                      </div>
-                    </div>
-                    <div className="text-left">
-                      <h3 className="font-medium">{project.name}</h3>
-                      <p
-                        className={
-                          theme === "dark" ? "text-gray-400" : "text-gray-500"
-                        }
-                      >
-                        {project.description}
-                      </p>
-                    </div>
-                  </div>
-                  <svg
-                    className={`w-6 h-6 ${
-                      theme === "dark"
-                        ? "text-gray-500 group-hover:text-white"
-                        : "text-gray-400 group-hover:text-black"
-                    } transition-colors`}
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 5l7 7-7 7"
-                    />
-                  </svg>
-                </button>
-              ))}
-            </div>
+            ))}
           </div>
         </div>
       </div>
