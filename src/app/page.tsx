@@ -51,6 +51,29 @@ export default function Home() {
               </span>
             </div>
             <div className="flex items-center gap-1.5">
+              <button
+                  onClick={copyEmail}
+                  className={`border ${
+                      theme === "dark"
+                          ? "border-[#2C2C2C] hover:bg-[#2C2C2C]"
+                          : "border-gray-200 hover:bg-gray-100"
+                  } px-3 py-1.5 rounded-lg font-medium transition-colors relative flex items-center gap-1.5 text-xs`}
+              >
+                <svg
+                    className="w-3.5 h-3.5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                >
+                  <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
+                  />
+                </svg>
+                <span>{showCopied ? "Email copié !" : "Copier l'email"}</span>
+              </button>
             <button
               onClick={toggleTheme}
               className={`p-2 ${
@@ -87,29 +110,7 @@ export default function Home() {
                 </svg>
               )}
             </button>
-              <button
-                  onClick={copyEmail}
-                  className={`border ${
-                      theme === "dark"
-                          ? "border-[#2C2C2C] hover:bg-[#2C2C2C]"
-                          : "border-gray-200 hover:bg-gray-100"
-                  } px-3 py-1.5 rounded-lg font-medium transition-colors relative flex items-center gap-1.5 text-xs`}
-              >
-                <svg
-                    className="w-3.5 h-3.5"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                >
-                  <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
-                  />
-                </svg>
-                <span>{showCopied ? "Email copié !" : "Copier l'email"}</span>
-              </button>
+
             </div>
 
           </div>
