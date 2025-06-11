@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62e80230-ecd7-46c5-8cf5-0bfb6d7c3a36" name="Changes" comment="feat(POT-0): Update construction">
+    <list default="true" id="62e80230-ecd7-46c5-8cf5-0bfb6d7c3a36" name="Changes" comment="feat(POT-0): Fix">
+      <change afterPath="$PROJECT_DIR$/public/avatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +45,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/adrian.rabian/Documents/Develop/Portfolio/public/assets/images&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/adrian.rabian/Documents/Develop/Portfolio/public/assets&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -53,11 +57,13 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets" />
       <recent name="$PROJECT_DIR$/public/assets/images" />
       <recent name="$PROJECT_DIR$/src/assets/images" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/components/icon" />
       <recent name="$PROJECT_DIR$/src/public" />
     </key>
@@ -79,7 +85,9 @@
       <updated>1739390774814</updated>
       <workItem from="1741699646043" duration="5757000" />
       <workItem from="1741706597874" duration="12222000" />
-      <workItem from="1743023265820" duration="2417000" />
+      <workItem from="1743023265820" duration="4560000" />
+      <workItem from="1744288619226" duration="3423000" />
+      <workItem from="1749628995414" duration="1766000" />
     </task>
     <task id="LOCAL-00001" summary="feat(POT-0): Init project">
       <option name="closed" value="true" />
@@ -145,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743027406702</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat(POT-0): Fix">
+      <option name="closed" value="true" />
+      <created>1743027512740</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1743027512740</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +177,7 @@
     <MESSAGE value="feat(POT-0): Fix size" />
     <MESSAGE value="feat(POT-0): Wording" />
     <MESSAGE value="feat(POT-0): Update construction" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(POT-0): Update construction" />
+    <MESSAGE value="feat(POT-0): Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(POT-0): Fix" />
   </component>
 </project>
