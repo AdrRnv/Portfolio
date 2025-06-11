@@ -71,7 +71,7 @@ const careersData = [
 ];
 
 export default function CareerDetail() {
-  const { theme, toggleTheme } = useTheme();
+  const { theme } = useTheme();
   const params = useParams();
   const career = careersData.find((c) => c.id === params.id);
 
