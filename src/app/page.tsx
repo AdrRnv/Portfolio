@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
 
 export default function Home() {
-  const { theme, toggleTheme } = useTheme();
+  const { theme } = useTheme();
 
   return (
     <main
