@@ -38,14 +38,6 @@ export default function Home() {
                 >
                   Full-Stack Developer
                 </span>
-                <motion.span
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 0.5, delay: 0.4 }}
-                  className="ml-2 text-[10px] text-emerald-500 bg-emerald-500/20 px-2 py-0.5 rounded-full font-medium"
-                >
-                  AVAILABLE FOR WORK
-                </motion.span>
               </div>
               <motion.h1
                 initial={{ opacity: 0 }}

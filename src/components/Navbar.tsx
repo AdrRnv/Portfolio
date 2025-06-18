@@ -20,7 +20,7 @@ export default function Navbar() {
 
   const copyEmail = async () => {
     try {
-      await navigator.clipboard.writeText("adrian.rabian@outlook.fr");
+      await navigator.clipboard.writeText("adrian.rabian-vicaire@etu.univ-lyon1.fr");
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch (err) {
