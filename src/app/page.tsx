@@ -125,7 +125,7 @@ export default function Home() {
                   id: "fitpulse",
                   name: "FitPulse",
                   description: "Nutritional and training tracking mobile app",
-                  logo: "/assets/images/LogoFT.png",
+                  logo: "/assets/images/LogoFP.png",
                   color: "bg-white",
                 },
               ].map((project, index) => (
