@@ -3,9 +3,8 @@
 import Image from "next/image";
 import { useTheme } from "../../context/ThemeContext";
 import Link from "next/link";
-import { useState } from "react";
 import { useParams } from "next/navigation";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 
 // Données de démonstration des projets
 const projectsData = {
@@ -17,15 +16,13 @@ const projectsData = {
     color: "bg-white",
     category: "Web Application",
     technologies: [
-      "React",
-      "Node.js",
-      "MongoDB",
-      "Express",
+      "Symfony",
+      "Docker",
       "Tailwind CSS",
       "Chart.js",
-      "JWT",
+      "MySQL",
     ],
-    year: "2023",
+    year: "2024",
     url: "https://fitool.example.com",
     github: "https://github.com/username/fitool",
     longDescription:
@@ -54,14 +51,14 @@ const projectsData = {
     color: "bg-white",
     category: "Mobile App",
     technologies: [
-      "React Native",
-      "Node.js",
+      "Symfony",
+      "Vue.js",
       "MongoDB",
-      "Express",
-      "Redux",
-      "Firebase",
+      "Docker",
+      "Capacitor",
+      "Render",
     ],
-    year: "2023",
+    year: "2025",
     url: "https://fitpulse.example.com",
     github: "https://github.com/username/fitpulse",
     longDescription:
@@ -89,7 +86,7 @@ const projectsData = {
     logo: "/assets/images/LogoFT.png",
     color: "bg-white",
     category: "Web Application",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    technologies: ["Next.js", "Tailwind CSS", "Vercel"],
     year: "2023",
     url: "https://portfolio.example.com",
     github: "https://github.com/username/portfolio",
@@ -100,7 +97,6 @@ const projectsData = {
       "Animations et transitions fluides",
       "Responsive design",
       "Visualisation détaillée des projets",
-      "Formulaire de contact",
       "Optimisé pour les performances",
     ],
     images: [
@@ -111,33 +107,26 @@ const projectsData = {
     challenges:
       "Trouver le bon équilibre entre esthétique et performance a été un défi. J'ai dû optimiser les animations et les ressources pour garantir des temps de chargement rapides tout en conservant une expérience visuelle attrayante.",
   },
-  ecommerce: {
-    id: "ecommerce",
-    name: "E-Commerce Platform",
-    description: "Online store for a clothing brand",
+  sae: {
+    id: "sae",
+    name: "BTP SAE",
+    description: "Website for construction management",
     logo: "/assets/images/LogoFT.png",
     color: "bg-white",
     category: "Web Application",
-    technologies: [
-      "Next.js",
-      "Node.js",
-      "MongoDB",
-      "Stripe",
-      "Redux",
-      "AWS S3",
-    ],
-    year: "2022",
+    technologies: ["Symfony", "Tailwind CSS"],
+    year: "2024",
     url: "https://ecommerce.example.com",
     github: "https://github.com/username/ecommerce",
     longDescription:
-      "Une plateforme e-commerce complète développée pour une marque de vêtements, avec gestion de catalogue, panier d'achat, paiements sécurisés, et un tableau de bord d'administration pour la gestion des produits et des commandes.",
+        "Une application web de gestion dédiée au secteur du BTP, développée en équipe dans le cadre d’un projet SAE. Elle permet la gestion des chantiers, des employés, des clients, et des ressources, avec une interface intuitive et un tableau de bord pour le suivi global des activités.",
     features: [
-      "Catalogue de produits filtrable",
-      "Système de panier et de checkout",
-      "Intégration des paiements Stripe",
-      "Gestion des comptes utilisateurs",
-      "Tableau de bord d'administration",
-      "Système de notifications par email",
+      "Gestion des chantiers et des affectations",
+      "Suivi des employés et de leur planning",
+      "Base de données clients et contrats",
+      "Interface d’administration centralisée",
+      "Système d’authentification sécurisé",
+      "Exportation de données en PDF ou Excel",
     ],
     images: [
       "/assets/images/LogoFT.png",
@@ -145,37 +134,37 @@ const projectsData = {
       "/assets/images/LogoFT.png",
     ],
     challenges:
-      "La gestion des sessions utilisateur, du panier d'achat et l'optimisation des performances du catalogue avec un grand nombre de produits ont représenté les défis techniques majeurs de ce projet.",
+        "La conception d’un modèle de données adapté au secteur du BTP, la gestion des droits utilisateurs selon les rôles (admin, chef de chantier, employé), et la coordination en équipe pour une architecture robuste et maintenable ont été les principaux défis du projet.",
   },
-  dashboard: {
-    id: "dashboard",
-    name: "Analytics Dashboard",
-    description: "Data visualization dashboard for business metrics",
+  studea: {
+    id: "studea",
+    name: "Studea",
+    description: "Booklets of apprenticeship",
     logo: "/assets/images/LogoFT.png",
     color: "bg-white",
     category: "Web Application",
-    technologies: ["React", "Chart.js", "Firebase", "Material UI", "D3.js"],
-    year: "2022",
+    technologies: ["Symfony", "Vue.js", "Docker"],
+    year: "2024",
     url: "https://dashboard.example.com",
     github: "https://github.com/username/dashboard",
     longDescription:
-      "Un tableau de bord d'analyse pour visualiser et interpréter des données commerciales complexes. Le dashboard présente des données en temps réel avec des graphiques interactifs et des indicateurs clés de performance personnalisables.",
+      "Plateforme web destinée à la gestion de la vie étudiante, développée pour une entreprise. Elle centralise les documents, les échanges, les modules pédagogiques et les informations administratives des étudiants. Développée en Symfony et Vue.js, elle est utilisée quotidiennement par des milliers d’étudiants et de membres du personnel.",
     features: [
-      "Visualisations de données en temps réel",
-      "Graphiques et diagrammes interactifs",
-      "Filtres et segmentation des données",
-      "Export de rapports PDF/CSV",
-      "Alertes et notifications",
-      "Tableaux de bord personnalisables",
+      "Espace personnel pour chaque étudiant",
+      "Gestion des documents administratifs",
+      "Messagerie interne et notifications",
+      "Accès aux modules pédagogiques",
+      "Interface d’administration pour les établissements",
+      "Connexion sécurisée avec système de rôles",
     ],
     images: [
-      "/assets/images/LogoFT.png",
-      "/assets/images/LogoFT.png",
-      "/assets/images/LogoFT.png",
+      "/assets/images/studea_dashboard.png",
+      "/assets/images/studea_profile.png",
+      "/assets/images/studea_admin.png",
     ],
     challenges:
-      "La visualisation des grands ensembles de données de manière performante et la création d'une interface intuitive pour configurer des tableaux de bord personnalisés ont été les principaux défis techniques.",
-  },
+      "L’unification de plusieurs fonctionnalités complexes (documents, communication, pédagogie) dans une interface fluide, la refonte de composants obsolètes, et l’évolution continue du produit en équipe agile ont représenté les principaux défis techniques.",
+    },
 };
 
 export default function ProjectDetail() {
@@ -183,8 +172,6 @@ export default function ProjectDetail() {
   const params = useParams();
   const projectId = params.id as string;
   const project = projectsData[projectId as keyof typeof projectsData];
-
-  const [currentImage, setCurrentImage] = useState(0);
 
   if (!project) {
     return (
@@ -417,155 +404,6 @@ export default function ProjectDetail() {
                 ))}
               </motion.div>
             </div>
-          </div>
-        </motion.div>
-
-        {/* Project Preview */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.3 }}
-          className={`${
-            theme === "dark" ? "bg-[#1C1C1C]" : "bg-white"
-          } rounded-xl p-6 shadow-xl mb-5 overflow-hidden`}
-        >
-          <div className="relative aspect-video mb-4 overflow-hidden rounded-lg shadow-md">
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={currentImage}
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                transition={{ duration: 0.3 }}
-                className="absolute inset-0"
-              >
-                <Image
-                  src={project.images[currentImage]}
-                  alt={`${project.name} screenshot`}
-                  fill
-                  className="object-cover"
-                />
-              </motion.div>
-            </AnimatePresence>
-            <div className="absolute inset-0 flex justify-between items-center">
-              <motion.button
-                whileHover={{ scale: 1.1, backgroundColor: "rgba(0,0,0,0.5)" }}
-                whileTap={{ scale: 0.95 }}
-                onClick={() =>
-                  setCurrentImage((prev) =>
-                    prev === 0 ? project.images.length - 1 : prev - 1
-                  )
-                }
-                className="bg-black/30 text-white p-2 rounded-full m-2 transition-colors"
-              >
-                <svg
-                  className="w-5 h-5"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M15 19l-7-7 7-7"
-                  />
-                </svg>
-              </motion.button>
-              <motion.button
-                whileHover={{ scale: 1.1, backgroundColor: "rgba(0,0,0,0.5)" }}
-                whileTap={{ scale: 0.95 }}
-                onClick={() =>
-                  setCurrentImage((prev) =>
-                    prev === project.images.length - 1 ? 0 : prev + 1
-                  )
-                }
-                className="bg-black/30 text-white p-2 rounded-full m-2 transition-colors"
-              >
-                <svg
-                  className="w-5 h-5"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M9 5l7 7-7 7"
-                  />
-                </svg>
-              </motion.button>
-            </div>
-          </div>
-          <div className="flex justify-center gap-2 mb-4">
-            {project.images.map((_, index) => (
-              <motion.button
-                key={index}
-                whileHover={{ scale: 1.2 }}
-                whileTap={{ scale: 0.9 }}
-                onClick={() => setCurrentImage(index)}
-                className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${
-                  index === currentImage
-                    ? "bg-emerald-500 scale-110"
-                    : theme === "dark"
-                    ? "bg-[#2C2C2C]"
-                    : "bg-gray-200"
-                }`}
-              ></motion.button>
-            ))}
-          </div>
-          <div className="flex justify-center gap-4">
-            <a href={project.url} target="_blank" rel="noopener noreferrer">
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className={`${
-                  theme === "dark"
-                    ? "bg-[#2C2C2C] hover:bg-[#363636]"
-                    : "bg-gray-100 hover:bg-gray-200"
-                } px-4 py-2 rounded-xl font-medium transition-colors shadow-md text-sm flex items-center gap-2`}
-              >
-                <svg
-                  className="w-4 h-4"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                  />
-                </svg>
-                Voir le site
-              </motion.button>
-            </a>
-            <a href={project.github} target="_blank" rel="noopener noreferrer">
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className={`${
-                  theme === "dark"
-                    ? "bg-[#2C2C2C] hover:bg-[#363636]"
-                    : "bg-gray-100 hover:bg-gray-200"
-                } px-4 py-2 rounded-xl font-medium transition-colors shadow-md text-sm flex items-center gap-2`}
-              >
-                <svg
-                  className="w-4 h-4"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
-                    fill="currentColor"
-                  />
-                </svg>
-                GitHub
-              </motion.button>
-            </a>
           </div>
         </motion.div>
 

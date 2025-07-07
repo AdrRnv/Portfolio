@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62e80230-ecd7-46c5-8cf5-0bfb6d7c3a36" name="Changes" comment="feat(POT-0): Fix">
+    <list default="true" id="62e80230-ecd7-46c5-8cf5-0bfb6d7c3a36" name="Changes" comment="feat(POT-0): main &amp; projects">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/projects/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/projects/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/[id]/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +85,7 @@
       <workItem from="1741706597874" duration="12222000" />
       <workItem from="1743023265820" duration="4560000" />
       <workItem from="1744288619226" duration="3423000" />
-      <workItem from="1749628995414" duration="7427000" />
+      <workItem from="1749628995414" duration="25465000" />
     </task>
     <task id="LOCAL-00001" summary="feat(POT-0): Init project">
       <option name="closed" value="true" />
@@ -184,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749637829710</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat(POT-0): main &amp; projects">
+      <option name="closed" value="true" />
+      <created>1750249203906</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1750249203906</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +208,7 @@
     <MESSAGE value="feat(POT-0): Wording" />
     <MESSAGE value="feat(POT-0): Update construction" />
     <MESSAGE value="feat(POT-0): Fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(POT-0): Fix" />
+    <MESSAGE value="feat(POT-0): main &amp; projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(POT-0): main &amp; projects" />
   </component>
 </project>
