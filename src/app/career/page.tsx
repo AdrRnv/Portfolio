@@ -12,8 +12,8 @@ const careers = [
     description: "Apprentice Full-Stack Developer",
     logo: "/assets/images/LogoFT.png",
     color: "bg-white",
-    period: "2023 - Present",
-    technologies: ["React", "Node.js", "MongoDB", "Express", "TypeScript"],
+    period: "2024 - Present",
+    technologies: ["Symfony", "Vue.js", "MongoDB", "Docker"],
   },
   {
     id: "fullstack",
@@ -21,8 +21,8 @@ const careers = [
     description: "Full-Stack Developer",
     logo: "/assets/images/LogoFT.png",
     color: "bg-white",
-    period: "2022 - 2023",
-    technologies: ["React", "Node.js", "MongoDB", "Express"],
+    period: "2024",
+    technologies: ["Symfony", "Vue.js", "MongoDB", "Docker"],
   },
   {
     id: "intern",
@@ -30,8 +30,8 @@ const careers = [
     description: "Intern Full-Stack Developer",
     logo: "/assets/images/LogoFT.png",
     color: "bg-white",
-    period: "2022",
-    technologies: ["React", "Node.js", "MongoDB"],
+    period: "2024",
+    technologies: ["Symfony", "Vue.js", "MongoDB", "Docker"],
   },
 ];
 
