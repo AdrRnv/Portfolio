@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62e80230-ecd7-46c5-8cf5-0bfb6d7c3a36" name="Changes" comment="feat(POT-0): logo effetb">
-      <change afterPath="$PROJECT_DIR$/public/assets/images/LogoFP.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/Studea.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/Vercel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/btp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/career/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/career/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/projects/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/[id]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/projects/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +83,7 @@
       <workItem from="1741706597874" duration="12222000" />
       <workItem from="1743023265820" duration="4560000" />
       <workItem from="1744288619226" duration="3423000" />
-      <workItem from="1749628995414" duration="26391000" />
+      <workItem from="1749628995414" duration="26668000" />
     </task>
     <task id="LOCAL-00001" summary="feat(POT-0): Init project">
       <option name="closed" value="true" />
@@ -237,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751922514027</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="feat(POT-0): logo effetb">
+      <option name="closed" value="true" />
+      <created>1751922962380</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1751922962380</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
