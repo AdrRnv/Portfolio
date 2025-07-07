@@ -253,7 +253,7 @@ export default function Home() {
                 description: "Apprentice Full-Stack Developer",
                 logo: "/assets/images/LogoEffetB.png",
                 color: "bg-white",
-                period: "2023 - Present",
+                period: "2024 - Present",
               },
               {
                 id: "fullstack",
@@ -261,7 +261,7 @@ export default function Home() {
                 description: "Full-Stack Developer",
                 logo: "/assets/images/LogoEffetB.png",
                 color: "bg-white",
-                period: "2022 - 2023",
+                period: "2024",
               },
               {
                 id: "intern",
@@ -269,7 +269,7 @@ export default function Home() {
                 description: "Intern Full-Stack Developer",
                 logo: "/assets/images/LogoEffetB.png",
                 color: "bg-white",
-                period: "2022",
+                period: "2024",
               },
             ].map((project, index) => (
               <Link
